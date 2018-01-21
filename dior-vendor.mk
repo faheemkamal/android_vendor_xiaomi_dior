@@ -186,8 +186,8 @@ PRODUCT_COPY_FILES += \
 
 # FM (OnePlus OPR6.170623.013)
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/armani/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
-    vendor/xiaomi/armani/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so
+    vendor/xiaomi/dior/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/xiaomi/dior/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so
 
 # GPS
 PRODUCT_COPY_FILES += \
