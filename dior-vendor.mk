@@ -24,7 +24,8 @@ PRODUCT_PACKAGES += \
     libqminvapi \
     libtime_genoff \
     libmdmdetect \
-    libTimeService
+    libTimeService \
+    vendor.qti.hardware.fm@1.0
 
 # ADSP (TheMuppets Motorola msm8226-common)
 PRODUCT_COPY_FILES += \
@@ -182,6 +183,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/dior/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/xiaomi/dior/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so
+
+# FM (OnePlus OPR6.170623.013)
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/armani/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
+    vendor/xiaomi/armani/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so
 
 # GPS
 PRODUCT_COPY_FILES += \
